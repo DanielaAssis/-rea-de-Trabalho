@@ -1,0 +1,108 @@
+
+
+WORKSHOP FRONT-END 04/03
+
+conseguimos acessar sites e projetos a partir dos navegadores (chrome, firefox, opera, java)
+
+arquivos que o navegador lê: html, css, js (java script) 
+HTML: estrutura do site
+CSS: aparência/estilo/customização do site
+Javascript: Ação/dinamização/interação com o usuário
+
+HTML
+TAG
+<nome-da-tag propriedade="valor da propriedade">conteudo da tag</nome-da-tag>
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTMLo 
+
+CSS
+seletor {
+  propriedade: valor;
+}
+
+display: block - deixa os elementos em linhas separadas
+display: inline - deixa os elementos na mesma linha
+display: flex - você pode definir se os elementos ficarão na mesma linha ou não
+
+====================================INDEX.HTML==========================================================
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop Reprograma</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="banner">
+    <h1>Margaret Hamilton</h1>
+    <p>Conheça mais sobre mim</p>
+    <button>Veja mais sobre mim</button>
+  </div>
+
+  <div class="sobre">
+    <h2>Um pouco mais sobre mim</h2>
+    <div class="descricao">
+      <p>Eu sou Margaret Hamilton, sou empresária, engenheira de software e cientista da computação e adoro escrever códigos.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet optio animi earum numquam praesentium modi. Rem dolore nobis praesentium eligendi quis, voluptatibus voluptates quo perferendis recusandae labore numquam mollitia ea.</p>
+      <button>VEJA MEU CV</button>
+    </div>
+
+    <div class="habilidades">
+      <h3>Minhas habilidades</h3>
+      <ul>
+        <li>Teste de sistemas</li>
+        <li>Priority scheduling</li>
+        <li>Desenvolvi o conceito computação paralela</li>
+        <li>Sistemas e design de software</li>
+        <li>Arquiteta de software</li>
+        <li>Engenheira de software</li>
+        <li>Computação paralela</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+=====================================STYLE.CSS===========================================================
+
+
+body {
+  margin: 0;
+}
+
+.banner {
+  background-image: url(../imagens/banner-bg.png);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.banner p,
+h1 {
+  color: white;
+  margin: 0;
+}
+
+.banner button {
+  background-color: white;
+  color: #7E4598;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.descricao, .habilidades {
+  display: inline-block;
+  width: 40%;
+}*+/

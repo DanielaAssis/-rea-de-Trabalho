@@ -1,0 +1,35 @@
+h1 {
+    color: #ad0ab9;
+}
+
+.banner {
+    background-image: url(../imagem/havy.jpg);
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner p,
+h1 {
+  color: rgb(234, 255, 44);
+  margin: 1;
+}
+
+.banner button {
+    background-color: white;
+    color: #ff930e;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.descricao, .habilidades {
+    display: inline-block;
+    width: 45%;
+    margin-right: 70px;
+    margin-top: -56px;
+  }
