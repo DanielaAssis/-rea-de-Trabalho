@@ -38,7 +38,7 @@ display: flex - você pode definir se os elementos ficarão na mesma linha ou n�
 </head>
 
 <body>
-  <div class="banner">
+   
     <h1>Margaret Hamilton</h1>
     <p>Conheça mais sobre mim</p>
     <button>Veja mais sobre mim</button>

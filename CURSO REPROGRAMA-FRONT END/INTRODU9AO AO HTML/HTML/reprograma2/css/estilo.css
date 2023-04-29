@@ -1,69 +1,48 @@
+/*estudar flex box */
+
+
 body {
+    margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: ;
-    background-color: blueviolet;
-    
+    background: linear-gradient(0, #120c56, #000000);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
 
 header {
-    background-color: blueviolet;
-    color: #fff;
-    
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #555;
-}
-
-section {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h1 {
+    color: rgb(226, 225, 228);
+    font-size: 2em;
 }
 
 h2 {
+    color: rgb(244, 236, 236);
+    font: size 1em;;
 }
 
 p {
+    color: rgb(239, 245, 238);
+    font-size: 1rem;
 }
 
-ul {
-
+.imagem_3 {
+    width: 20%;
+    height: auto;
+    max-width: 100%;
+    align-items: center;
 }
 
-li {
-}
+.imagem_4 {
+    width: 30%;
+    height: auto;
+    max-width: 100%;
+    align-items: center;
 
-.contact {
-
-}
-
-label {
-    display: block;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-}
-
-input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #555;
+    @media(min-width: 600px) and (max-width: 768px)
 }

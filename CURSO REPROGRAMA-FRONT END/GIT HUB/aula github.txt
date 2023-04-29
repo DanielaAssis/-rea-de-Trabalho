@@ -1,0 +1,29 @@
+
+
+Link para criar conta no GitHub: https://github.com
+
+Repositório da aula de Git/Github:  https://github.com/reprograma/-on23-b3-s1-git-github
+
+Repositório exercício para casa: https://github.com/thielenunes/instagraminho
+
+
+
+Comando para dizer qual seu nome:
+git config --global user.name “Thiele Nunes”
+Comando para dizer qual seu email:
+git config --global user.email “thielenunes@email.com”
+Comando de verificação se a configuração foi realizada com sucesso:
+git config --list
+
+
+
+pwd - caminho
+ls - listar
+mkdir - criar uma pasta
+cd - entrar em algum lugar
+cd .. - sair de algum lugar
+touch - usa para criar um arquivo
+rm - deletar arquivo
+rm -r remover a pasta ou arquivo 
+
+Precisa lembrar de sair da pasta para excluir ela
